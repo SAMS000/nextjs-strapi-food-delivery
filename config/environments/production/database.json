@@ -1,0 +1,14 @@
+{
+    "defaultConnection": "default",
+    "connections": {
+      "default": {
+        "connector": "mongoose",
+        "settings": {
+          "uri": "${process.env.mongodb+srv://SAMS0:<OpIhUjO87iuiYju>@nextjs-strapi.gjx5u.mongodb.net/<SCRAM>?retryWrites=true&w=majority}"
+        },
+        "options": {
+          "ssl": true
+        }
+      }
+    }
+  }
